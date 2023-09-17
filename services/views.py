@@ -1,8 +1,11 @@
 from django.shortcuts import render
+from django.template import loader
+from django.http import Http404
+from django.shortcuts import render
+from django.shortcuts import get_object_or_404, render
 
-# Create your views here.
-from django.http import HttpResponse
+def index(request): 
+    return render(request, 'index.html')
 
-
-def index(request):
-    return HttpResponse("Hello, world. You're at the polls index.")
+def service(request): 
+    return render(request, 'services.html')
