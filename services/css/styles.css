@@ -184,7 +184,7 @@ img {
   /* display: flex; */
   min-height: 300px;
   height: 800px;
-  background-image: url("./techsolutionsgif.gif");
+  background-image: url("/services/img/techsolutionsgif.gif");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
