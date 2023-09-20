@@ -24,4 +24,4 @@ def contact(request):
 
 
 def success(request):
-    return render(request, 'index.html')
+    return render(request, 'contact.html')
